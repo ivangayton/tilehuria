@@ -12,6 +12,10 @@ from convert_and_compress_tiles import convert_and_compress_tiles
 from write_mbtiles import write_mbtiles
 from arguments import argumentlist, set_defaults
 
+def drawn_feature2mbtiles():
+    """Temporary placeholder to quiet import issue from flask app"""
+    pass
+
 def polygon2mbtiles(infile, optsin = {}):
     """Take an Area of Interest (AOI) polygon, return an MBtiles file."""
 
